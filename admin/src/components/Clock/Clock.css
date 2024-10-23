@@ -1,0 +1,48 @@
+.clock-container {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.clock-content {
+    display: flex;
+    padding: 5px;
+    gap: max(0.8vw, 7px);
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-icon {
+    margin-top: 8px;
+    font-size: max(2.8vw, 25px);
+    color: var(--main-black);
+}
+
+.clock-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.clock-time {
+    font-size: max(1.8vw, 15px);
+    font-weight: 800;
+    color: var(--main-black);
+}
+
+.clock-date {
+    font-size: max(1.2vw, 12px);
+    font-weight: bold;
+    color: var(--main-black);
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
